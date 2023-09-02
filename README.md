@@ -172,8 +172,21 @@ print(c3)
 ```
 <img width="29" alt="image" src="https://github.com/TejaswiniGugananthan/ODD2023---Datascience---Ex-02/assets/121222763/2143cf85-e8bd-4f03-bb72-562dc0bfc7f2">
 
+```python
+rid=id[((id.sepal_width<(c1-1.5*iq))|(id.sepal_width>(c3+1.5*iq)))]
+rid['sepal_width']
+```
+<img width="206" alt="image" src="https://github.com/TejaswiniGugananthan/ODD2023---Datascience---Ex-02/assets/121222763/0c6bd8aa-e54d-4824-8011-827c3e0485f9">
+
+```python
+delid=id[~((id.sepal_width<(c1-1.5*iq))|(id.sepal_width>(c3+1.5*iq)))]
+delid
+```
 
 
+```python
+sns.boxplot(x='sepal_width',data=delid)
+```
 
 
 
