@@ -182,12 +182,14 @@ rid['sepal_width']
 delid=id[~((id.sepal_width<(c1-1.5*iq))|(id.sepal_width>(c3+1.5*iq)))]
 delid
 ```
-
+<img width="268" alt="image" src="https://github.com/TejaswiniGugananthan/ODD2023---Datascience---Ex-02/assets/121222763/bc3a76ca-73fb-4406-8f9a-590fe97b0f48">
 
 ```python
 sns.boxplot(x='sepal_width',data=delid)
 ```
+<img width="269" alt="image" src="https://github.com/TejaswiniGugananthan/ODD2023---Datascience---Ex-02/assets/121222763/212cc2fc-03cd-4fe6-a484-a2c2a182a51e">
 
+# Result:
 
 
 
